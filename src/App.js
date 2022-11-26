@@ -11,10 +11,11 @@ bakeryData.forEach((item) => {
 function App() {
   // TODO: use useState to create a state variable to hold the state of the cart
   /* add your cart state code here */
+  const [cart, setCart] = useState(0);  
 
   return (
     <div className="App">
-      <h1>My Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
+      <h1>Isha's Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
 
       {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
         <p>Bakery Item {index}</p> // replace with BakeryItem component
