@@ -25,7 +25,7 @@ function App() {
 
       {bakeryData.map((item) => ( // TODO: map bakeryData to BakeryItem components
         <p>
-          <BakeryItem name = {item.name} image = {item.image}/>
+          <BakeryItem name = {item.name} image = {item.image} desc = {item.description} price = {item.price}/>
         </p> // replace with BakeryItem component
       ))}
 
