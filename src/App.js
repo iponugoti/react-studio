@@ -7,17 +7,15 @@ import BakeryItem from "./components/BakeryItem";
 bakeryData.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/" + item.image;
 });
-
-// bakeryData.forEach((item) => {
-//   item.image = "iponugoti.github.io/react-studio/" + item.image;
-// });
-
 /* ############################################################## */
 
 function App() {
   // TODO: use useState to create a state variable to hold the state of the cart
   /* add your cart state code here */
-  // const [cart, setCart] = useState(0);  
+  const [cart, setCart] = useState(0);  
+
+  const setCart = (name, price) => {
+  };
 
   return (
     <div className="App">
@@ -32,6 +30,7 @@ function App() {
       <div>
         <h2>Cart</h2>
         {/* TODO: render a list of items in the cart */}
+        
       </div>
     </div>
   );
