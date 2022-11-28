@@ -35,7 +35,7 @@
   }
   
   .desc {
-    color: darkbrown;
+    color: black;
     margin: 2%;
   }
   
@@ -46,7 +46,7 @@
     margin: 20%;
   }
   
-  .addToCart {
+  .addButton {
     position: absolute;
     margin: 200px;
     background-color: lavenderblush;
@@ -58,7 +58,7 @@
     transition-duration: 0.4s;
   }
 
-  .addToCart:hover {
+  .addButton:hover {
     background-color: powderblue;
     color: black;
   }
