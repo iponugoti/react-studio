@@ -5,7 +5,7 @@ export default function BakeryItem(props) {
     const add = props.addToCart;
     return(
     <div className="itemCard">
-        <div className="image-container">
+        <div className="img-container">
             <img src={props.image} alt = {props.name} />
         </div>
         <div className="desc-container">
